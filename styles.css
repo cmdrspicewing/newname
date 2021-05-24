@@ -1,1 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
+.text {
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 16s infinite linear;
+    animation: stroke 16s infinite linear; 
+}
+
+.text:nth-child(5n + 1) {
+    stroke: #bce6eb;
+    -webkit-animation-delay: -3.2s;
+    animation-delay: -3.2s;
+}
+
+.text:nth-child(5n + 2) {
+    stroke: #00adb5;
+    -webkit-animation-delay: -6.4s;
+    animation-delay: -6.4s;
+}
+
+.text:nth-child(5n + 3) {
+    stroke: #fdcfdf;
+    -webkit-animation-delay: -9.6s;
+    animation-delay: -9.6s;
+}
+
+.text:nth-child(5n + 4) {
+    stroke: #132c33;
+    -webkit-animation-delay: -12.8s;
+    animation-delay: -12.8s;
+}
+
+.text:nth-child(5n + 5) {
+    stroke: #fca3cc;
+    -webkit-animation-delay: -16s;
+    animation-delay: -16s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+html, body {
+    height: 100%;
+  }
+
+body {
+    background: #111;
+    background-size: 0.2em 100%;
+    /* font: 4em/1 Open Sans, Impact; */
+    font: 4em/1 'Indie Flower', cursive;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
