@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
-@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap); */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 .text {
     fill: none;
-    stroke-width: 3;
+    stroke-width: 2;
     stroke-dasharray: 70 330;
     stroke-dashoffset: 0;
     -webkit-animation: stroke 16s infinite linear;
@@ -59,7 +60,7 @@ html, body {
 body {
     background-size: 0.2em 100%;
     /* font: 4em/1 Open Sans, Impact; */
-    font: 4em/1 'Indie Flower', cursive;
+    font: 4em/1 'Megrim', cursive;
     text-transform: uppercase;
     margin: 0;
   }
